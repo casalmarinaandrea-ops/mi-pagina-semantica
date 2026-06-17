@@ -20,6 +20,7 @@ header, nav, footer {
   padding: 16px;
   background: var(--color-principal);
   margin-bottom: 12px;
+  color: white;
 }
 
 header {
@@ -84,69 +85,36 @@ footer {
 
 @media (max-width: 768px) {
   main {
-    flex-direction: column;
-    width: calc(100% - 32px);
-    margin: 0 16px;
-  }
-
-  aside {
-    width: 100%;
-  }
-
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-}
-
-@media (max-width: 768px) {
-  main {
-    display: flex;
-    flex-direction: column;
-    width: calc(100% - 32px);
-    max-width: none;
-    margin: 0 16px;
-    padding: 16px;
-    gap: 20px;
+    display: flex !important;
+    flex-direction: column !important;
+    width: auto !important;
+    max-width: none !important;
+    margin: 16px !important;
+    padding: 16px !important;
   }
 
   article,
   aside {
-    width: 100%;
-    flex: none;
-  }
-
-  aside {
-    padding: 20px;
-    min-height: auto;
-    text-align: center;
+    width: 100% !important;
+    flex: none !important;
   }
 
   .galeria {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-    gap: 12px;
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
   }
 
   .galeria img {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 12px;
   }
 
-  nav ul {
-    flex-direction: column;
-    gap: 8px;
-  }
-
-  h1 {
-    font-size: 2rem;
-  }
-
-  body {
-    overflow-x: hidden;
+  aside {
+    margin-top: 20px;
+    min-height: 0 !important;
+    text-align: center;
   }
 }
