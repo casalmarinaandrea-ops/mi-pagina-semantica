@@ -68,3 +68,18 @@ let indiceAleatorio = Math.floor(Math.random() * tareas.length);
 
 console.log("Índice aleatorio:", indiceAleatorio);
 console.log("Tarea seleccionada:", tareas[indiceAleatorio]);
+
+const boton = document.getElementById("cambiarBtn");
+const parrafo = document.getElementById("parrafo");
+
+boton.addEventListener("click", function() {
+    console.log("El botón fue clickeado correctamente");
+
+    parrafo.textContent = "¡Lo estoy logrando!";
+
+    const colores = ["red", "blue", "green", "yellow", "pink", "orange", "purple"];
+
+    const colorAleatorio = colores[Math.floor(Math.random() * colores.length)];
+
+    parrafo.style.backgroundColor = colorAleatorio;
+});
