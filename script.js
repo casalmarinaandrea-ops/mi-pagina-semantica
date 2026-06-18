@@ -83,3 +83,13 @@ boton.addEventListener("click", function() {
 
     parrafo.style.backgroundColor = colorAleatorio;
 });
+
+const colorBox = document.getElementById('colorBox'); // Selecciona el div 
+const button = document.getElementById('changeColorButton'); // Selecciona el botón
+
+function changeColor() {
+    const randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16); // Genera un color aleatorio
+    colorBox.style.backgroundColor = randomColor; // Cambia el color de fondo del div
+}
+
+button.addEventListener('click', changeColor); // Añade un evento al botón

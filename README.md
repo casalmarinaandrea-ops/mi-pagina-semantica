@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este proyecto es una página web personal desarrollada utilizando HTML semántico. Fue creado como práctica para aprender la estructura correcta de una página web y el uso de Git y GitHub durante el curso de Soy Henry.
+Este proyecto es una página web personal desarrollada utilizando HTML semántico, CSS y Javascript. Fue creado como práctica para aprender la estructura correcta de una página web y el uso de Git y GitHub durante el curso de Soy Henry.
 
 ## Contenido
 
@@ -11,10 +11,11 @@ Actualmente el proyecto incluye:
 - Header con título y descripción.
 - Navegación interna.
 - Sección "Sobre mí".
-- Imagen de perfil.
+- Imagenes de perfil.
 - Lista de intereses personales.
 - Enlaces externos.
 - Archivo CSS para estilos.
+- Boton que cambia de color
 
 ## Cómo usar
 
@@ -24,9 +25,7 @@ Actualmente el proyecto incluye:
 
 ## Próximos pasos
 
-- Mejorar los estilos visuales.
-- Agregar una sección de contacto completa.
-- Incorporar diseño responsive para dispositivos móviles.
+- Continuar mejorando estilos visuales y animandola con JS.
 - Publicar la página utilizando GitHub Pages.
 
 ## Autor

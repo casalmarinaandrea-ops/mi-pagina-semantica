@@ -72,6 +72,19 @@ aside {
   padding: 16px;
 }
 
+#colorBox {
+    width: 200px; 
+    height: 200px; 
+    background-color: blue; 
+    transition: background-color 1s ease; 
+}
+
+#changeColorButton {
+    margin-top: 20px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+}
+
 .galeria {
 display: flex;
 flex-wrap: wrap;
