@@ -25,7 +25,13 @@ header, nav, footer {
 
 header {
   border-bottom: 1px solid var(--color-texto);
+  color: white;
+
 }
+
+h1 {
+  color: white
+  }
 
 nav ul {
   list-style: none;
@@ -46,36 +52,38 @@ nav a:hover {
 
 main {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
   max-width: 900px;
   margin: 0 auto;
-  padding: 16px;
+  padding: 24px;
   background: #fff;
   border-radius: 8px;
 }
 
 article {
-  flex: 2;
+  flex: 2 1 500px;
 }
-
-.galeria {
-width: 100%;
-display: flex
-gap: 8px;
-}
-
-img {
-  width: 100%;
- display: block;
-  height: auto;
-  }
 
 aside {
-  flex: 1;
+  flex: 1 1 220px;
   background: var(--color-principal);
   border-radius: 8px;
   padding: 16px;
 }
+
+.galeria {
+display: flex;
+flex-wrap: wrap;
+gap: 8px;
+}
+
+.galeria img {
+  flex: 1 1 250px;
+  max-width: 100%;
+  height: auto;
+  }
+
 
 footer {
   text-align: center;
